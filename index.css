@@ -10,7 +10,24 @@ body{
 }
 /* btn styling */
 .btn{
-   
+        background-color: #FD6E0A;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        padding: 18px 35px;
+        cursor: pointer;
+        border-radius: 42px;
+        border: none;
+}
+.btn-download{
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    cursor: pointer;
+    border-radius: 42px;
+    border: 1px solid white;
 }
 /* nav bar styling */
 .navbar{
