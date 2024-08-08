@@ -12,7 +12,7 @@ body{
 .btn{
         width: 224px;
         height: 54px;
-        background-color: #FD6E0A;
+        background: rgb(230, 83, 60);
         font-weight: bold;
         font-size: 20px;
         color: white;
@@ -40,7 +40,7 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 1060px;
-    height: 46px;
+    /* height: 46px; */
     margin: 0 auto;
     margin-top: 57px;
 }
@@ -89,6 +89,7 @@ body{
 
 .banner{
     display: flex;
+
     margin-top: 32px;
     justify-content: space-between;
 }
@@ -101,7 +102,7 @@ body{
     margin-top: 60px;
 }
 
-.banner-text span{
+.shape{
     font-family: 'Miama', sans-serif;                                            
     font-style: italic;
 }
@@ -122,6 +123,7 @@ body{
     text-align: left;
 }
 .banner-image{
+    position: relative;
     width: 349px;
     height: 580px;
 }
@@ -131,10 +133,10 @@ body{
 
 #badge{
 position: absolute;
-width: 185px;
+width: 206px;
 height: 95px;
-left: 1160px;
-top: 280px;
+left: 250px;
+top: 140px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
 backdrop-filter: blur(22px);
@@ -163,8 +165,8 @@ height: 40px;
     position: absolute;
     width: 206px;
     height: 96px;
-    left: 820px;
-    top: 580px;
+    right: 260px;
+    bottom: 65px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(22px);

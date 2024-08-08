@@ -7,7 +7,80 @@
         display: none;
     }
     .navbar{
-        width: 353px;
-        height: 43px; 
+         width: 353px;
+         height: 43px;
+         left: 20px;
+         padding: 0px;
+         margin-left: 28px;
     }
+    .nav-menu{
+        font-size: x-large;
+    }
+    .banner-text h1{
+        width: 285px;
+        height: 129px;
+        font-size: 45px;
+        margin-left: 30px;
+    }
+    .banner-text p{
+        width: 285px;
+        height: 129px;
+        font-size: 19px;
+        margin-left: 30px;
+        line-height: 24px;
+        margin-top: 60px;
+    }
+    .btn-responsive button{
+        width: 180px;
+        height: 54px;
+        margin-right: 28px;
+        padding: 0%;
+    }
+    .club{
+        display: none;
+    }
+    .btn-responsive{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        margin: 25px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-image {
+        /* margin-left:  80px; */
+        padding: 20px;
+        border: 2px solid red;
+    }
+    #badge{
+        width: 145px;
+        height: 74px;
+        left: 220px;
+        top: 50px;
+
+
+    }
+    #badge-500{
+        font-size: 30.24px;
+    }
+    #badge-350{
+        width: 145px;
+        height: 74px;
+        left: 20px;
+        top: 300px;
+
+    }
+    #badge-video{
+        font-size: 18.14px;
+    }
+    #badge-workout{
+        font-size: 10px;
+    }
+    #cercle{
+        background: rgb(230, 83, 60);
+        border-radius:40px;
+        width: 40px;
+        height: 20px;
+}
 }
