@@ -16,6 +16,7 @@
     .nav-menu{
         font-size: x-large;
     }
+    /* banner er text responsive */
     .banner-text h1{
         width: 285px;
         height: 129px;
@@ -30,6 +31,7 @@
         line-height: 24px;
         margin-top: 60px;
     }
+    /* banner btn responsive */
     .btn-responsive button{
         width: 180px;
         height: 54px;
@@ -49,17 +51,14 @@
         flex-direction: column;
     }
     .banner-image {
-        /* margin-left:  80px; */
         padding: 20px;
-        border: 2px solid red;
     }
+    /* badge responsive */
     #badge{
         width: 145px;
         height: 74px;
         left: 220px;
         top: 50px;
-
-
     }
     #badge-500{
         font-size: 30.24px;
@@ -69,7 +68,6 @@
         height: 74px;
         left: 20px;
         top: 300px;
-
     }
     #badge-video{
         font-size: 18.14px;
@@ -77,7 +75,7 @@
     #badge-workout{
         font-size: 10px;
     }
-    #cercle{
+    #circle{
         background: rgb(230, 83, 60);
         border-radius:40px;
         width: 40px;
