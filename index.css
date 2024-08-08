@@ -59,7 +59,6 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     padding: 18px;
-
 }
 .nav-links li a{
     text-decoration: none;
@@ -78,15 +77,12 @@ body{
     color: white;
     display: none;
 }
-
 /* banner section styling */
 .container{
     justify-content: space-between;
     width: 1060px;
     margin: 0 auto;
-
 }
-
 .banner{
     display: flex;
 
@@ -114,34 +110,24 @@ body{
     margin-bottom: 30px;
     line-height: 120%;
 }
-.banner-text p{
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    text-align: left;
-}
+
 .banner-image{
     position: relative;
     width: 349px;
     height: 580px;
 }
-
-
 /* 500+ badge styling */
-
 #badge{
-position: absolute;
-width: 206px;
-height: 95px;
-left: 250px;
-top: 140px;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
-backdrop-filter: blur(22px);
-background: rgba(255, 255, 255, 0.1);
-color: white;
+    position: absolute;
+    width: 206px;
+    height: 95px;
+    left: 250px;
+    top: 140px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(22px);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
 }
 
 #badge-500{
@@ -158,7 +144,7 @@ color: white;
     background: rgb(230, 83, 60);
     border-radius:40px;
     width: 40px;
-height: 40px;
+    height: 40px;
 }
 #badge-350{
     display: flex;
@@ -180,4 +166,32 @@ height: 40px;
     font-size: 24px;
     font-weight: 900;
     padding-right: 15px;
+}
+/* habits section styling  */
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+.paragraph{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.habits-text{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.habits-images h3{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-size: 18px;
+}
+.habits-image{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
