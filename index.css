@@ -10,6 +10,8 @@ body{
 }
 /* btn styling */
 .btn{
+        width: 224px;
+        height: 54px;
         background-color: #FD6E0A;
         font-weight: bold;
         font-size: 20px;
@@ -20,6 +22,8 @@ body{
         border: none;
 }
 .btn-download{
+    width: 224px;
+    height: 54px;
     background-color: black;
     font-weight: bold;
     font-size: 20px;
@@ -86,18 +90,15 @@ body{
 .banner{
     display: flex;
     margin-top: 32px;
-    border:5px solid yellow;
     justify-content: space-between;
 }
 
 .banner-text{
     color:rgb(255, 255, 255) ;
-    border: 2px solid tomato;
     width: 520px;
     height: 491px;
-    
     font-size: 70px;
- 
+    margin-top: 60px;
 }
 
 .banner-text span{
@@ -121,7 +122,60 @@ body{
     text-align: left;
 }
 .banner-image{
-    border: 2px solid tomato;
     width: 349px;
     height: 580px;
+}
+
+
+/* 500+ badge styling */
+
+#badge{
+position: absolute;
+width: 185px;
+height: 95px;
+left: 1160px;
+top: 280px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(22px);
+background: rgba(255, 255, 255, 0.1);
+color: white;
+}
+
+#badge-500{
+    font-weight: 900;
+    font-size: 35px;
+    padding-right: 40px;
+}
+#badge-workout{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+#cercle{
+    background: rgb(230, 83, 60);
+    border-radius:40px;
+    width: 40px;
+height: 40px;
+}
+#badge-350{
+    display: flex;
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    left: 820px;
+    top: 580px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(22px);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    align-items: center;
+    padding: 23px;
+    gap: 15px;
+}
+#badge-video{
+    font-size: 24px;
+    font-weight: 900;
+    padding-right: 15px;
 }
