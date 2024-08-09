@@ -80,5 +80,29 @@
         border-radius:40px;
         width: 40px;
         height: 20px;
-}
+    }
+    /* habits section  */
+    .habits-text{
+        margin-left: 20px;
+        width: 380px;
+    }
+    .title{
+        font-size: 38px;
+    }
+    .habits-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .habits-images{
+        margin-left: 28px;
+        width: 231px;
+        height: 274px;
+        margin-left: 90px;
+        margin-bottom: 120px;
+    }
+    .habits-images img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 19px;
+    }
 }
