@@ -79,7 +79,6 @@ body{
 }
 /* banner section styling */
 .container{
-    justify-content: space-between;
     width: 1060px;
     margin: 0 auto;
 }
@@ -89,7 +88,6 @@ body{
     margin-top: 32px;
     justify-content: space-between;
 }
-
 .banner-text{
     color:rgb(255, 255, 255) ;
     width: 520px;
@@ -97,7 +95,6 @@ body{
     font-size: 70px;
     margin-top: 60px;
 }
-
 .shape{
     font-family: 'Miama', sans-serif;                                            
     font-style: italic;
@@ -110,7 +107,6 @@ body{
     margin-bottom: 30px;
     line-height: 120%;
 }
-
 .banner-image{
     position: relative;
     width: 349px;
@@ -129,7 +125,6 @@ body{
     background: rgba(255, 255, 255, 0.1);
     color: white;
 }
-
 #badge-500{
     font-weight: 900;
     font-size: 35px;
@@ -139,7 +134,6 @@ body{
     font-size: 13px;
     color: rgba(255, 255, 255, 0.65);
 }
-
 #circle{
     background: rgb(230, 83, 60);
     border-radius:40px;
@@ -267,8 +261,6 @@ background-size: cover;
     display: flex;
     justify-content: space-between;
     width: 1060px;
-    /* margin: 0 auto; */
-
 }
 .bmi-container div{
     margin-top: 52px;
@@ -288,16 +280,65 @@ table {
     width: 310px;
     height: 216px;
   }
-
   th{
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 500;
     text-align: left;
   }
-
   td{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
   }
-  
+  /* bmi-calculate-section styling*/
+    .bmi-calculate-section{
+        width: 577px;
+        height: 386px;
+    }  
+    .bmi-calculate-section p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 14px;
+        margin-bottom: 25px;
+    }
+    form{
+        width: 590px;
+        height: 168px;
+        margin-bottom: 56px;
+        margin-top: 42px;
+    }
+    input[type="text"], input[type="number"], .option-section, .factor{
+        width: 280px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+        margin-top: 12px;
+    }
+    input:focus{
+    outline: 0;
+    }
+    select:focus{
+        outline: 0;
+    }
+    .factor{
+        width: 578px;
+        height: 48px; 
+    }
+    .option{
+        color: black;
+        font-weight: bold;
+    }
+    input::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+      }
+      input , select{
+        padding-left: 12px; 
+      }
+      input[placeholder="Weight/kg"] {
+        width: 270px;
+      }
+
+    .trainer-title
