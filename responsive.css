@@ -151,7 +151,7 @@
         }
 
         .calculate{
-            height: 865px;
+            height: 880px;
             background: rgb(34, 34, 34);
         }
         .bmi-container{
@@ -215,5 +215,42 @@
         }
 
         /* footer section responsive */
-        
-    }
+        .fitness{
+            width: 317px;
+            height: 200px;
+            margin-left: 20px;
+        }
+         .footer-container{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            
+         }
+          .get{
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            margin-top: 30px;
+          }
+          .get-start{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .get-start-2{
+            margin-top: 30px;
+            margin-left: 0px;
+          }
+          .calculate-f{
+            height: 1000px;
+            background: rgb(34, 34, 34);
+          }
+          .line-line{
+            margin-top: 320px;
+          }
+          .line{
+            
+            width: 354px;
+          }
+   
+
+}

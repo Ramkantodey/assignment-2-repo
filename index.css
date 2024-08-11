@@ -317,7 +317,7 @@ table {
         margin-top: 12px;
     }
     input:focus{
-    outline: 0;
+        outline: 0;
     }
     select:focus{
         outline: 0;
@@ -387,14 +387,14 @@ table {
 }
 .fitness{
     width: 443px;
-height: 176px;
-margin-top: 66px;
+    height: 176px;
+    margin-top: 66px;
 }
 .get{
     width: 514px;
-height: 249px;
-display: flex;
-margin-top: 66px;
+    height: 249px;
+    display: flex;
+    margin-top: 66px;
 }
 .fitness h1{
     color: rgb(230, 83, 60);
@@ -422,6 +422,9 @@ margin-top: 66px;
 .line{
     width: 1059.5px;
     border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+}
+.line-line{
     margin-top: 79px;
 }
 footer p{
