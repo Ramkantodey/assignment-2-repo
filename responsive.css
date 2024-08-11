@@ -98,11 +98,122 @@
         width: 231px;
         height: 274px;
         margin-left: 90px;
-        margin-bottom: 120px;
+        margin-bottom: 90px;
     }
     .habits-images img {
         width: 200px;
         height: 200px;
         margin-bottom: 19px;
     }
-}
+    /* run section  responsive */
+    .run-section{
+        display: grid;
+        grid-template-columns: (1, 1fr);
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    width: 300px;
+    height: 500px;
+    margin: 35px;
+    
+    }
+    .run-text{
+        width: 287px;
+        height: 54px;
+    }
+    .run-text h1{
+        font-size: 40px;
+    }
+    .run-text p{
+        font-size: 14px;
+        width: 287px;
+        height: 96px;
+    }
+    .run-img{
+            position: relative;
+            width: 287px;
+            height: 170px;
+            left: 5px;
+            top: 140px;
+    }
+    .btn-join{
+        width: 287px;
+        height: 54px;
+    }
+        /* bmi section responsive */
+        .bmi-hader{
+            width: 353px;
+            height: 124px;
+            position: relative;
+            right: 160px;
+        }
+        .bmi-hader h1{
+            font-size: 40px;         
+        }
+
+        .calculate{
+            height: 865px;
+            background: rgb(34, 34, 34);
+        }
+        .bmi-container{
+            display: grid;
+            grid-template-columns: (1, 1fr);
+            margin-left: 20px;
+        }
+        .sub-title{
+            font-size: 16px;
+        }
+        .bmi-calculate-section{
+            width: 354px;
+        }
+        .bmi-calculate-section p{
+            line-height: 24px;
+        }
+        form{
+            width: 353px;
+            height: 150px;
+        }
+        input[type="text"], input[type="number"], .option-section{
+            width: 160px;
+            height: 48px;
+            border-radius: 8px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 12px;
+        }
+        .factor{
+            width: 338px;
+            height: 48px;
+        }
+        input[placeholder="Weight/kg"] {
+            width: 148px;
+          }
+          input::placeholder {
+            font-size: 18px;
+          }
+          input , select{
+            font-size: 18px;
+          }
+
+          /* our team section responsive */
+          .team{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .our-team{
+            width: 353px;
+            margin-left: 20px;
+        }
+        .trainer-title{
+            font-size: 22px;
+        }
+        .iamson{
+            display: none;
+        }
+        .dot{
+            display:contents;
+        }
+
+        /* footer section responsive */
+        
+    }

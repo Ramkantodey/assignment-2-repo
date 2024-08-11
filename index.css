@@ -224,14 +224,13 @@ body{
 }
 .run-text p{
     width: 443px;
-height: 72px;
-text-align: left;
-margin-bottom: 34px;
+    height: 72px;
+    text-align: left;
+    margin-bottom: 34px;
 }
 .run-img{
 width: 366px;
 height: 312px;
-
 border-radius: 18px;
 background-image: url('./images/run.jpg');
 background-repeat: no-repeat;
@@ -349,8 +348,8 @@ table {
 .our-team{
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
-padding-top: 25px;
-padding-left: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
 }
 
 .card{
@@ -366,6 +365,9 @@ padding-left: 20px;
     font-size: 20px;
     font-weight: 900;
     color: rgb(255, 255, 255);
+}
+.dot{
+    display: none;
 }
 .trainer-paragraph{
     color: rgba(255, 255, 255, 0.5);
