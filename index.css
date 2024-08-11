@@ -417,3 +417,14 @@ margin-top: 66px;
     padding-top: 20px;
     font-size: 23px;
 }
+.line{
+    width: 1059.5px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 79px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 36px;
+}
