@@ -340,10 +340,22 @@ table {
       input[placeholder="Weight/kg"] {
         width: 270px;
       }
-      /* Meet Our Team */
+      /* Meet Our Team styling */
 .team{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 80px;
+}
+.our-team{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+padding-top: 25px;
+padding-left: 20px;
+}
+
+.card{
+    width: 326px;
+    height: 300px;
 }
 .card img{
     width: 326.67px;
@@ -365,4 +377,43 @@ table {
     position: relative;
     bottom: 60px;
     margin-left: 19px; 
+}
+/* footer styling */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.fitness{
+    width: 443px;
+height: 176px;
+margin-top: 66px;
+}
+.get{
+    width: 514px;
+height: 249px;
+display: flex;
+margin-top: 66px;
+}
+.fitness h1{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+}
+.fitness p {
+    text-align: left;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.get-start-2{
+    margin-left: 152px;
+}
+.get-start h3{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+.get-start p{
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 20px;
+    font-size: 23px;
 }
